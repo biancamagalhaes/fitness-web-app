@@ -33,7 +33,7 @@ export const ItemContainer = styled.div`
 `;
 
 export const Topic = styled.h1`
-  font-size: 20px;
+  font-size: 18px;
   color: ${colors.black};
   margin-bottom: 3vh;
 `;
@@ -55,7 +55,7 @@ export const StyledImage = styled(Image)``;
 
 export const Label = styled.h4`
   font-weight: 500;
-  font-size: 15px;
+  font-size: 12px;
   text-align: center;
 
   @media (max-width: 920px) {

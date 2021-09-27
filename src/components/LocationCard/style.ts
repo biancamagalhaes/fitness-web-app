@@ -18,7 +18,7 @@ export const Container = styled.div`
 `;
 
 export const Opened = styled.h1`
-  font-size: 20px;
+  font-size: 15px;
   color: ${(props: {isOpened: boolean}) => props.isOpened ? colors.green : colors.red};
   margin-bottom: 1vh;
 
@@ -28,7 +28,7 @@ export const Opened = styled.h1`
 `;
 
 export const Title = styled.h1`
-  font-size: 30px;
+  font-size: 20px;
   color: ${colors.darkGrey};
   margin-bottom: 1vh;
 

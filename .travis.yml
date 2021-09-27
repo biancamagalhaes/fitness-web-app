@@ -1,3 +1,7 @@
+dist: trusty
+language: javascript
+before_install:
+- export TZ=Brazil/East
 deploy:
   provider: heroku
   api_key:

@@ -1,13 +1,13 @@
 import Head from 'next/head';
 
-import Reopening from './Reopening';
+import Reopening from '../containers/Reopening';
 
 export default function Home() {
   return (
     <main>
       <Head>
         <link rel="shortcut icon" href="/images/favicon.png" type="image/png" />
-        <title>Smartifit App</title>
+        <title>Smartfit App</title>
       </Head>
       <section>
         <Reopening />

@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../components/Header";
 import Title from "../../components/Title";
-import SearchLocations from "../../containers/SearchLocations";
+import SearchLocations from "../SearchLocations";
 import Footer from "../../components/Footer";
 
 const Reopening = (): React.ReactElement => {

@@ -38,7 +38,7 @@ export const ContainerTitle = styled.div`
 export const StyledImage = styled(Image)``;
 
 export const Title = styled.h4`
-  font-size: 25px;
+  font-size: 20px;
   color: ${colors.lightGrey};
   margin-left: 1vw;
   font-weight: 500;
@@ -51,7 +51,7 @@ export const Title = styled.h4`
 `;
 
 export const Question = styled.h1`
-  font-size: 40px;
+  font-size: 2.2vw;
   color: ${colors.lightGrey};
   border-bottom: solid;
   border-bottom-width: 0.1vh;
@@ -123,7 +123,7 @@ export const FindResults = styled.h4`
 `;
 
 export const Button = styled.button`
-  font-size: 18px;
+  font-size: 1.2vw;
   background-color: ${(props: {color: string}) => props.color};
   color: ${colors.darkGrey};
   margin-left: 1vw;

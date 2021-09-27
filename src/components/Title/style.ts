@@ -9,7 +9,7 @@ export const Container =  styled.div`
 `;
 
 export const Title = styled.h1`
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 600;
   text-transform: uppercase;
   max-width: 20vw;
@@ -29,7 +29,7 @@ export const Divisor = styled.div`
 `
 
 export const SubTitle = styled.h4`
-  font-size: 25px;
+  font-size: 1.35vw;;
   color: ${colors.lightGrey};
   font-weight: 500;
 
